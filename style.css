@@ -1,0 +1,95 @@
+.body{
+    background-color:black;
+}
+
+.cc{
+    height: 50px;
+    background-color: black;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 0px;
+}
+.menu > ul {
+    text-align: center;
+
+}
+.menu>ul >ul>li {
+    float: left;
+    list-style: none;
+}
+.menu>ul >ul>li >a{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(164, 11, 11);
+    line-height: 50px;
+    padding: 0px 20px;
+    display: block;
+    transition: all linear 0.3s;
+}
+.menu > ul > li {
+    float: right;
+    list-style: none;
+}
+
+.menu > ul > li > a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: red;
+    line-height: 50px;
+    padding: 0px 20px;
+    display: block;
+    transition: all linear 0.3s;
+}
+
+.menu > ul > li > a:hover{
+    background-color: rgb(202, 26, 26);
+    color: #000;
+    border-radius: 10px;
+}
+.img{
+    width: 100%;
+    border-radius: 30px;
+}
+.head{
+    color: rgb(226, 8, 8);
+    text-align: center;
+    font-size: 50px;
+}
+
+.card-img-top{
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 30px;
+}
+.card-title{
+    color: rgb(208, 18, 18);
+    font-size: 40px;
+    padding-top: 2px;
+    text-align: center;
+}
+.card-text{
+    color: rgb(255, 248, 248);
+    font-size: 20px;
+}
+.book>ul>li{
+    float: left;
+    list-style: none;
+}
+.book>ul>li>a{
+     padding: 40px 99px;
+     width: 30px;
+}
+.footer{
+    color: red;
+    text-align: center;
+    margin-top: 300px;
+}
+.footer>p>a{
+    text-decoration: none;
+    list-style: none;
+}
